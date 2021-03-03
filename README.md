@@ -1,2 +1,2 @@
 # Pi Examples
-An efficient python scipt that can calculate pi using arccot.
+A collection of different examples of how to calculate pi using various programming languages.
