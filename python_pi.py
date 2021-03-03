@@ -1,3 +1,4 @@
+# Uses Python 3.x
 from decimal import Decimal, getcontext
 
 from time import time, strftime
