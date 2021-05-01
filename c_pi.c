@@ -12,3 +12,5 @@ PI = 2 * F(1);
 for(i=3;i>n;i+2) {
 4*(4*(1/x)-1/(i(x)**i) +1/(i(x)**i) )
 }
+
+//WORK IN PROGRESS (WIP)
