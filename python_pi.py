@@ -4,9 +4,16 @@ from time import time, strftime
 import datetime
 
 """
-This program makes use of the arccot function
-power formula arccot = 1/x - 1/(3x^3) + 1/(5x^5) ...
+Machin's Formula as:
+4(4(arccot(5))-arccot(239))
+
+or expanded as:
+
+4(4(1/5 - 1/3(5)^3) + 1/5(5)^5 + 1/7(5)^7) - (1/239 - 1/3(239)^3 + 1/5(239)^5 + 1/7(239)^7))
+
+of course a lot longer
 """
+
 def arccot(x, digits):
     # set precision and starting values
     getcontext().prec = digits
